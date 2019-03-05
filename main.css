@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+                  url("./äpple.jpeg");
+}
+
+h1 {
+  font-family: fantasy;
+  font-size: 40px;
+  letter-spacing: 1px;
+  font-weight: lighter;
+}
+
+.inputSection {
+  margin: 50px 0px 90px 0px;
+  width: 350px;
+}
+
+.inputs {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-top: 15px;
+}
+
+.addOption {
+  margin-top: 20px;
+  border-radius: 12px;
+  background-color: darkgrey;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+}
