@@ -6,13 +6,36 @@
     <link href= "./main.css" rel="stylesheet type="text/css">
   </head>
   <body>
-    <h1>Help me choose between..</h1>
+      <h1 class="h1Color">Help me choose between..</h1>
       <div class="inputSection">
         <div class="inputs">
           <input placeholder="something"></input>
         </div>
         <button class="addOption">Add</button>
       </div>
+      <div class="resultSection"></div>
       <button>Go!</button>
+
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script>
+          $(function() {
+            $('.resultSection').hide()
+
+            var add_option = function() {
+              $('.inputs').append('<input></input>')
+            }
+
+              $('.addOption').click(add_option)
+
+              $(".h1Color").mouseover(function () {
+                         $(this).css('color', '#00cc00'); // green color
+                     }).mouseout(function () {
+                         $(this).css('color', '#336699'); // light blue color
+                     });
+
+          })
+
+
+        </script>
   </body>
 </html>

@@ -4,9 +4,9 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 100px;
-  margin-bottom: 0px;
-  color: white;
-  background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+  margin-bottom: 50px;
+  color: black;
+  background-image: linear-gradient(rgba(244, 250, 238, 0.95), rgba(112, 206, 17, 0.95)),
                   url("./äpple.jpeg");
 }
 
